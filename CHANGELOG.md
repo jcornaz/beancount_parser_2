@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+* Support links (^link) in transaction directive.
 
 ## [1.0.0-alpha.6] - 2023-06-05
 
