@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+This crate has been renamed to [`beancount-parser`](https://github.corm/jcornaz/beancount-parser). The old name `beancount_parser_2` is now discontinued in favor of `beancount-parser`.
+
+See [beancount-parser 2.0.0-beta.1](https://github.com/jcornaz/beancount-parser/releases/tag/v2.0.0-beta.1)
+
 
 ## [1.0.0-beta.3] - 2023-06-19
 
