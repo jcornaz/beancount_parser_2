@@ -1,37 +1,6 @@
 # beancount_parser_2
 
-[![License](https://img.shields.io/crates/l/beancount_parser_2)](#Unlicense)
-[![Crates.io](https://img.shields.io/crates/v/beancount_parser_2)](https://crates.io/crates/beancount_parser_2)
-![rustc](https://img.shields.io/badge/rustc-1.70+-blue?logo=rust)
-[![Docs](https://docs.rs/beancount_parser_2/badge.svg)](https://docs.rs/beancount_parser_2)
-
-A [beancount] file parser library for rust
-
-[beancount]: https://beancount.github.io/docs/index.html
-
-This crate is a rewrite of [beancount-parser]. Not all features have been ported yet, and some of them may never be.
-
-If you're missing something, please open an issue.
-
-[beancount-parser]: https://github.com/jcornaz/beancount-parser
-
-## Goal
-
-Parse a [beancount file](https://beancount.github.io/docs/beancount_language_syntax.html) into a rust data structure
-
-
-## Non goals
-
-Do not verify beancount rules, such as "transaction must balance to zero", "account must be open", balance assertions, etc.
-
-Do not provide any "business" logic to analyze or manipulate the ledger. No balance, no currency translation, etc.
-
-
-## MSRV
-
-The minimum supported rust version is currently `1.70`.
-
-It can be updated to a newer stable version when required, and that will not be considered a breaking change.
+**DISCONTINUED**: See [beancount-parser](https://github.com/jcornaz/beancount-parser) instead
 
 
 ## Unlicense
